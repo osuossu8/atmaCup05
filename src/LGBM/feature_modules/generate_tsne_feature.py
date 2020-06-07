@@ -1,5 +1,3 @@
-
-
 from sklearn.manifold import TSNE
 
 spec_meta_df['light_intensity'] = spec_meta_df['light_intensity'].apply(lambda x: padding(x))
